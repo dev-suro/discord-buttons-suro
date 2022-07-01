@@ -27,7 +27,7 @@ def register(slash, guild_id):
             create_button(
                 style=ButtonStyle.primary,
                 label='Lost Lands',
-                emoji='🐱‍🐉',
+                emoji='🔥',
 
                 # custom_id must be set to roleID!!!
                 custom_id='992483399212224562'

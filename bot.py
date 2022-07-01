@@ -6,7 +6,7 @@ from discord_slash.context import ComponentContext
 from discord_slash.utils.manage_components import create_button, create_actionrow, wait_for_component
 from discord_slash.model import ButtonStyle
 from dotenv import dotenv_values
-from commands import vacation
+from commands import lostlands
 from utilities import get_rgb_from_hex
 
 config = dotenv_values('.env')
@@ -49,7 +49,7 @@ async def on_component(ctx: ComponentContext):
     else:
         await ctx.send("Invalid role specified", hidden=True)
 
-vacation.register(slash, guild_id)
+lostlands.register(slash, guild_id)
 
 
 # Run the client with the given key

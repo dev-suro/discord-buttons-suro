@@ -25,7 +25,7 @@ def register(slash, guild_id):
         buttons = [
             # Add first role
             create_button(
-                style=ButtonStyle.orange,
+                style=ButtonStyle.primary,
                 label='Lost Lands',
                 emoji='🐱‍🐉',
 
